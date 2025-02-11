@@ -48,11 +48,11 @@ The classifier outputs predicted authors for the test data.
 Outputs Accuracy, F1, and Confusion Matrix.
 
 ## Functions Overview
-| Function |	Description |
-|:----------|:----------|:----------|
-| build_dataframe(folder) |	Loads speech text data into Pandas DataFrames |
-| train_nb(df, alpha=0.1) |	Trains the custom Naïve Bayes classifier |
-| test(df, vocabulary, priors, likelihoods) |	Makes predictions using the trained model |
-| sklearn_nb(training_df, test_df) |	Runs scikit-learn’s Naïve Bayes for comparison |
-| get_metrics(true, preds) |	Computes accuracy, F1-score, and confusion matrix |
-| plot_confusion_matrix(conf_matrix, labels) |	Visualizes the confusion matrix |
+| Function |	Description |  
+|:----------|:----------|  
+| build_dataframe(folder) |	Loads speech text data into Pandas DataFrames |  
+| train_nb(df, alpha=0.1) |	Trains the custom Naïve Bayes classifier |  
+| test(df, vocabulary, priors, likelihoods) |	Makes predictions using the trained model |  
+| sklearn_nb(training_df, test_df) |	Runs scikit-learn’s Naïve Bayes for comparison |  
+| get_metrics(true, preds) |	Computes accuracy, F1-score, and confusion matrix |  
+| plot_confusion_matrix(conf_matrix, labels) |	Visualizes the confusion matrix |  
