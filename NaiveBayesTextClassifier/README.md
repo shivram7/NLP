@@ -17,13 +17,13 @@ data/
 
 Ensure you have the following Python libraries installed:
 
-''' pip install numpy pandas matplotlib seaborn scikit-learn '''
+` pip install numpy pandas matplotlib seaborn scikit-learn `
 
 ## How to Run
 
 Run the script with the following command:
 
-''' python scripts/nb.py -f data/ '''
+` python scripts/nb.py -f data/ `
 
 ## Features
 
